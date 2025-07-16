@@ -1,4 +1,4 @@
 package desafio3;
 
-public class uzumaki {
+public class uzumaki extends  Ninja{
 }

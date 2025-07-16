@@ -10,5 +10,8 @@ public class Main {
         Sasuke.statusMissao = "incompleta";
         Sasuke.habilidadeEspecial = "chidori";
         Sasuke.mostrarInformocoes();
+
+        uzumaki naruto = new uzumaki();
+
     }
 }
