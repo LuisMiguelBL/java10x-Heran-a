@@ -8,7 +8,7 @@ public class Uchiha extends Ninja {
     }
     public void mostrarInformocoes(){
         System.out.println("meu nome é" + nome + " minha idade é"+ idade + " o status da missão é" + nivelDificuldade+ " o status da minha missão é " + statusMissao);
-        System.out.println("habilidade especial uchiha"+ habilidadeEspecial);
+        System.out.println("habilidade especial uchihaa"+ habilidadeEspecial);
     }
 
 }
