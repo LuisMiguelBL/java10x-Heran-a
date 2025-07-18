@@ -2,13 +2,9 @@ package desafio3;
 
 public class Uchiha extends Ninja {
     String habilidadeEspecial;
-
-    public void mostrarHabilidadeEspecial(){
-        System.out.println("minha habilidade especial é " + habilidadeEspecial);
+//utilizamos o override para sobreescrever, base do polimofirsmo é uma anotação
+    @Override
+    public void ataqueEspecial() {
+        System.out.println("meu nome é "+ nome +" e essa minha habilidade especial uchiha!");
     }
-    public void mostrarInformocoes(){
-        System.out.println("meu nome é" + nome + " minha idade é"+ idade + " o status da missão é" + nivelDificuldade+ " o status da minha missão é " + statusMissao);
-        System.out.println("habilidade especial uchihaa"+ habilidadeEspecial);
-    }
-
 }

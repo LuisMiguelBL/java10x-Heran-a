@@ -9,11 +9,12 @@ public class Main {
         Sasuke.nivelDificuldade = "Alta";
         Sasuke.statusMissao = "incompleta";
         Sasuke.habilidadeEspecial = "chidori";
-        Sasuke.mostrarInformocoes();
+        Sasuke.ataqueEspecial();
 
         uzumaki naruto = new uzumaki();
         naruto.nome = "Naruto Uzumaki";
         naruto.ModoSabioAtivado();
+        naruto.ataqueEspecial();
 
         Boruto boruto = new Boruto();
         boruto.nome = "Boruto Uzumaki Hyuga";
