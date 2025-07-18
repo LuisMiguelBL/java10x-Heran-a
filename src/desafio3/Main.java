@@ -12,6 +12,14 @@ public class Main {
         Sasuke.mostrarInformocoes();
 
         uzumaki naruto = new uzumaki();
+        naruto.nome = "Naruto Uzumaki";
+        naruto.ModoSabioAtivado();
+
+        Boruto boruto = new Boruto();
+        boruto.nome = "Boruto Uzumaki Hyuga";
+        boruto.idade = 12;
+        boruto.AtivarJougan();
+        boruto.AtivarOKarma();
 
     }
 }
