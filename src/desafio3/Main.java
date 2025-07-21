@@ -22,9 +22,11 @@ public class Main {
         boruto.AtivarJougan();
         boruto.AtivarOKarma();
 
+        Senju Hashirama = new Senju();
+        Hashirama.nome = "Hashirama";
+        Hashirama.idade = 18;
+        Hashirama.sabedoriaHokage();
 
-        Hokage Hashirama = new Hokage("Hashirama", 98);
-        System.out.println(Hashirama.nome);
 
 
     }
