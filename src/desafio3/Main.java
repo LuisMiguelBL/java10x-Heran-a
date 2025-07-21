@@ -22,5 +22,10 @@ public class Main {
         boruto.AtivarJougan();
         boruto.AtivarOKarma();
 
+
+        Hokage Hashirama = new Hokage("Hashirama", 98);
+        System.out.println(Hashirama.nome);
+
+
     }
 }
