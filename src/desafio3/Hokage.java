@@ -9,6 +9,7 @@ public class Hokage {
     public Hokage(String nome, int idade){
         this.nome = nome;
         this.idade = idade;
+        this.vivo = vivo;
     }
 
 }
